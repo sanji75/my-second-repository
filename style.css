@@ -1,4 +1,18 @@
-.h1{
-    text-align: justify;
-    padding-bottom: 20px;
+body {
+    
+    background-image: url("d2.jpg");
+    text-align:center; 
+    padding-top: 20px;
+    margin: 0;
+
 }
+h1 {
+    color: rgb(224, 227, 225);
+    text: size= 150px;
+    
+  }
+  p{
+    text-align: center;
+    text size: 40px;
+  }
+  
