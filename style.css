@@ -1,18 +1,70 @@
-body {
-    
-    background-image: url("d2.jpg");
+.first{ 
+    background-image:url("donation7.jpg");
     text-align:center; 
-    padding-top: 20px;
     margin: 0;
-
+    background-size: cover;
+    background-position: relative;
+    height: 500px;
+    padding-top: 200px;
+    ;
 }
 h1 {
     color: rgb(224, 227, 225);
-    text: size= 150px;
-    
+    margin: 0;
+    text-align: center;
+    font-size: 80px;
+    padding: 0;
   }
   p{
     text-align: center;
-    text size: 40px;
+    color: azure;
+    text-size: 160px;
+    font-size: 20px;
   }
+  .button{
+    color:white;
+    border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: coral;
+  border-radius: 5px;
+    
+
+  }
+  .second{
+    text-align: center;
+    margin-top: 80px;
+    color: black;
   
+    
+  }
+  .sec{
+    
+      color:black;
+  }
+  .btn{
+     border-color: none;
+     margin: 4px 2px;
+     padding : 20px;
+     background-color: aliceblue;
+  }
+  btn1{
+    border-color: coral;
+  }
+
+  .plan{
+    text-align:center;
+    font-size: 30px;
+    margin-top: 100px;
+    color: black;
+
+  }
+  footer{
+       background-color: black;
+       color: coral;
+  }
