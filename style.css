@@ -23,7 +23,7 @@ h1 {
   p{
     text-align: center;
     color: azure;
-    text-size: 160px;
+
     font-size: 20px;
   }
   .button{
@@ -71,7 +71,6 @@ h1 {
     padding: 10px 20px;
     border-radius: 5px;
 }
-
 form{
     text-align: center;
 }
@@ -124,7 +123,7 @@ hr{
 #for-bg-colour-3{
     background-color: rgb(230, 223, 205);
 }
-.paragraph-icons{
+.p-icons{
     color: black;
     text-align: justify;
     font-size: 10px;
@@ -141,17 +140,7 @@ hr{
     margin-left: 60px;
     
 }
-#contribute-button{
-    margin-top: 30px;
-    text-decoration: none;
-    font-size: larger;
-    background-image: linear-gradient(rgb(224, 118, 77),coral);
-    margin-left: 510px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    float: left;
-    
-}
+
 .text{
    text-align: right justify;
    padding-left: 260px;
@@ -161,7 +150,7 @@ hr{
    width: 50%;
    
 }
-#for-update{
+#update{
     float: left;
     margin-left: 26%;
     margin-top: 50px;
@@ -185,20 +174,20 @@ hr{
 }
 
 
-  #footer{
+  #foot{
     background-color: black;
     height: 100px;
     margin-top: 50%;
     padding: 16px 16px 30px 10px;
   }
-  #footer h1{
+  #foot h1{
       text-align: center;
       color: coral;
       margin-left: 10px;
       font-size: 30px;
       font-family: 'Lobster', cursive;
   }
-  #footer p{
+  #foot p{
       font-family:Georgia, 'Times New Roman', Times, serif;
       font-size: 15px;
   }
