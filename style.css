@@ -6,13 +6,18 @@
     background-position: relative;
     height: 500px;
     padding-top: 200px;
+    opacity: 99%;
     ;
+}
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
 }
 h1 {
     color: rgb(224, 227, 225);
     margin: 0;
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     padding: 0;
   }
   p{
@@ -36,35 +41,164 @@ h1 {
     
 
   }
-  .second{
+  .heading{
     text-align: center;
-    margin-top: 80px;
-    color: black;
-  
-    
-  }
-  .sec{
-    
-      color:black;
-  }
-  .btn{
-     border-color: none;
-     margin: 4px 2px;
-     padding : 20px;
-     background-color: aliceblue;
-  }
-  btn1{
-    border-color: coral;
-  }
+    padding-top:5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+#donation-amount{
+    margin-left: 25%;
+    margin-top: 60px;
+}
+#for-200tk{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 30px 30px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: red;
+}
+.other-amount{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d-btn{
+    text-decoration: none;
+    background-image: linear-gradient( rgb(231, 134, 104));
+    margin-left: 550px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 
-  .plan{
-    text-align:center;
-    font-size: 30px;
-    margin-top: 100px;
-    color: black;
+form{
+    text-align: center;
+}
+.form-border{
+    border: none;
+    padding: 10px;
+}
 
+form{
+    text-align: center;
+}
+hr{
+    margin-left: 300px;
+    margin-right: 300px;
+    color: gray;
+}
+#for-icons{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#div-icons-main{
+    display: flex;
+}
+.division-icons{
+    box-shadow: 10px 10px white;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-right: 30px;
+}
+.division-icons img{
+    margin: 20px;
+}
+.division-icons p{
+    margin:10px;
+    padding-bottom: 50px;
+}
+.division-icons h2{
+    font-size: 20px;
+    margin: 10px;
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#for-bg-colour{
+    background-color: rgb(195, 231, 231);
+}
+#for-bg-colour-2{
+    background-color: rgb(224, 203, 231);
+}
+#for-bg-colour-3{
+    background-color: rgb(230, 223, 205);
+}
+.paragraph-icons{
+    color: black;
+    text-align: justify;
+    font-size: 10px;
+}
+
+.column {
+    float:left;
+    padding: 25px 10px 30px 10px ;
+    margin-left: 10px;
+    margin-top: 20px;
   }
-  footer{
-       background-color: black;
-       color: coral;
+#contribution{
+    float: left;
+    margin-left: 60px;
+    
+}
+#contribute-button{
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: larger;
+    background-image: linear-gradient(rgb(224, 118, 77),coral);
+    margin-left: 510px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    float: left;
+    
+}
+.text{
+   text-align: right justify;
+   padding-left: 260px;
+
+   margin-top: 25px;
+   margin-left: 100px;
+   width: 50%;
+   
+}
+#for-update{
+    float: left;
+    margin-left: 26%;
+    margin-top: 50px;
+}
+#email{
+    box-shadow: 10px 10px white;
+    background-color: rgb(230, 205, 209);
+    margin-left: 250px;
+    padding: 60px 250px 60px 250px;
+    float: left;
+    padding-top: 50px;
+    margin-top: 1rem;
+}
+#sub{
+    margin-left: 0%;
+    border: none;
+    margin: -5px;
+    padding: 10px;
+    background-color:rgb(243, 119, 119);
+    color: white;
+}
+
+
+  #footer{
+    background-color: black;
+    height: 100px;
+    margin-top: 50%;
+    padding: 16px 16px 30px 10px;
+  }
+  #footer h1{
+      text-align: center;
+      color: coral;
+      margin-left: 10px;
+      font-size: 30px;
+      font-family: 'Lobster', cursive;
+  }
+  #footer p{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-size: 15px;
   }
